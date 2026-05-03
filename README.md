@@ -6,7 +6,7 @@ Dashboard analityczny zbudowany w Streamlit do analizy transakcji KajoDataSpace.
 
 - przegląd KPI sprzedażowych i trendów miesięcznych,
 - analiza aktywnych i nowych klientów,
-- analiza retencji klientów i repeat rate,
+- analiza retencji klientów,
 - interaktywne wykresy wspierające interpretację biznesową.
 
 ## Screenshots
@@ -42,13 +42,8 @@ kajodata-dashboard/
 │   ├── overview.png
 │   ├── clients.png
 │   ├── pricing.png
-│   ├── revenue_chart.png
-│   ├── active_clients_chart.png
-│   └── transaction_hour_chart.png
-├── .idea/
+├── .gitignore
 ├── .streamlit/
-├── .venv/
-├── __pycache__/
 ├── data/
 ├── views/
 ├── app.py
@@ -64,10 +59,7 @@ kajodata-dashboard/
 
 ## Opis plików i folderów
 
-- `.idea/` – pliki konfiguracyjne środowiska IDE.
 - `.streamlit/` – konfiguracja aplikacji Streamlit, np. motyw i ustawienia.
-- `.venv/` – lokalne środowisko wirtualne Pythona.
-- `__pycache__/` – cache Pythona z plikami pośrednimi.
 - `data/` – dane wejściowe do analizy.
 - `views/` – osobne widoki / podstrony dashboardu.
 - `app.py` – główny punkt wejścia aplikacji Streamlit.
@@ -93,7 +85,5 @@ Taki układ ułatwia rozwijanie dashboardu i utrzymanie kodu w miarę dodawania 
 
 ## Możliwe rozwinięcia
 
-- deployment aplikacji na Streamlit Community Cloud,
 - rozbudowa sekcji retencji i analiz klientowskich,
-- eksport wybranych insightów i wykresów,
 - dalsze rozwijanie warstwy rekomendacji biznesowych.
