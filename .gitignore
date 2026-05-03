@@ -1,0 +1,13 @@
+.idea
+
+/venv
+/idea
+
+venv
+idea
+
+.env
+
+services/__pycache__
+common/__pycache__
+__pycache__
